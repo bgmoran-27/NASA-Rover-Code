@@ -1,0 +1,60 @@
+int t;
+int ledPin9=9;
+int ledPin6=6;
+int ledPin5=5;
+int ledPin3=3;
+
+
+void setup()
+{
+  pinMode(9,OUTPUT);
+  pinMode(6,OUTPUT);
+  pinMode(5,OUTPUT);
+  pinMode(3,OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  if(Serial.available())
+  {
+  t=Serial.read();
+  Serial.println(t);
+  }
+ 
+  if(t==1)
+  {
+ analogWrite(9,64);
+ analogWrite(6,0);
+ analogWrite(5,64);
+ analogWrite(3,0);
+  }
+  else if (t==2)
+  {
+ analogWrite(9,0);
+ analogWrite(6,64);
+ analogWrite(5,0);
+ analogWrite(3,64);    
+}
+   else if (t==3)
+   {
+ analogWrite(9,32);
+ analogWrite(6,0);
+ analogWrite(5,64);
+ analogWrite(3,0);
+   }  
+   else if (t==4)
+   {
+ analogWrite(9,64);
+ analogWrite(6,0);
+ analogWrite(5,32);
+ analogWrite(3,0);
+   }
+     else if (t==5)
+   {
+ analogWrite(9,64);
+ analogWrite(6,0);
+ analogWrite(5,32);
+ analogWrite(3,0);
+}
+}
