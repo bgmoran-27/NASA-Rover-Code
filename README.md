@@ -1,5 +1,5 @@
-## NASA Glenn High School Engineering Institute – Rover Code
-#Project Overview
+# NASA Glenn High School Engineering Institute – Rover Code
+## Project Overview
 
 Welcome to the rover control software repository developed as part of the NASA Glenn High School Engineering Institute.
 
@@ -7,7 +7,7 @@ This project contains the software and programming used to operate, control, and
 
 Through this project, we explored the intersection of robotics, software development, electrical engineering, and mechanical systems while gaining hands-on experience designing and operating a functional rover.
 
-# Project Objectives
+## Project Objectives
 
 The primary goals of this project include:
 
@@ -17,7 +17,7 @@ Implement movement and navigation commands.
 Integrate software with the rover's electronic and mechanical components.
 Test, troubleshoot, and refine the rover's performance.
 Apply engineering and programming concepts to solve real-world challenges.
-# Features
+## Features
 
 The rover control software is designed to support:
 
@@ -29,7 +29,7 @@ Testing and Debugging: Support development, troubleshooting, and system improvem
 
 Specific functionality depends on the hardware and software implementations included in this repository.
 
-#Repository Structure
+## Repository Structure
 
 The repository contains the source code and supporting files used to operate the rover.
 
@@ -38,19 +38,22 @@ NASA-Rover/
 │
 ├── README.md
 │
+
 ├── src/
 │   └── Main rover control programs
 │
+
 ├── controls/
 │   └── Rover movement and command logic
 │
+
 └── assets/
     └── Project documentation and media
 
 
 Note: This is an example structure. Actual directories and filenames may differ.
 
-# Technologies & Tools
+## Technologies & Tools
 
 This project involves the use of programming and engineering tools to develop the rover's control system.
 
@@ -62,7 +65,7 @@ Electronic hardware and motor controllers
 Communication protocols
 Robotics control software
 
-#Getting Started
+## Getting Started
 
 To explore or work with this project:
 
@@ -72,7 +75,7 @@ Identify the hardware components and software dependencies.
 Configure the development environment according to the project's requirements.
 Connect the appropriate hardware.
 Test the control system in a safe, controlled environment.
-#Testing & Development
+## Testing & Development
 
 Testing and refinement are essential parts of robotics engineering. The rover's software can be evaluated through:
 
@@ -91,13 +94,13 @@ Autonomous navigation capabilities.
 Sensor integration and environmental awareness.
 Improved error handling and system reliability.
 Additional control features and functionality.
-# Project Background
+## Project Background
 
 This project was developed as part of the NASA Glenn High School Engineering Institute, providing an opportunity to apply engineering principles and programming skills to a hands-on robotics project.
 
 The rover represents a collaborative effort involving problem-solving, technical development, experimentation, and practical engineering.
 
-# Disclaimer
+## Disclaimer
 
 This repository contains student-developed software associated with an educational engineering project. It is not official NASA flight software, and the project should not be interpreted as an officially NASA-developed or NASA-endorsed rover system.
 
